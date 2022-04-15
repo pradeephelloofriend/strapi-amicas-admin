@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_about_us_area_left_contents",
+  "info": {
+    "name": "right-content",
+    "icon": "angry",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "header_h2": {
+      "type": "text"
+    },
+    "header_h5": {
+      "type": "text"
+    },
+    "desc1": {
+      "type": "richtext"
+    },
+    "rightBoxIconData": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us-area.left-box-icon"
+    },
+    "btn_link": {
+      "model": "nav"
+    }
+  }
+}

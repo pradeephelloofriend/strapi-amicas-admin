@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_nav_area_contents",
+  "info": {
+    "name": "content",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "richtext"
+    },
+    "sub_image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nav-area.sub-image-box"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_navigation_area_middle_boxes",
+  "info": {
+    "name": "middle-box",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "navs": {
+      "collection": "nav"
+    }
+  }
+}

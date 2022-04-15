@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/testimonial-area",
+      "handler": "testimonial-area.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/testimonial-area",
+      "handler": "testimonial-area.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/testimonial-area",
+      "handler": "testimonial-area.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

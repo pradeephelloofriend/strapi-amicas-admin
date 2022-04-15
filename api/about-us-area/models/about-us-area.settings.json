@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_us_areas",
+  "info": {
+    "name": "About Us Area",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "rightBox": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us-area.left-content"
+    },
+    "left_Box_Data_Content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us-area.left-box-data"
+    },
+    "left_footer_icon": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us-area.left-footer-content"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "partner_areas",
+  "info": {
+    "name": "Partner Area"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "text"
+    },
+    "desc2": {
+      "type": "richtext"
+    },
+    "image_box": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partner-area.partner-image-box"
+    }
+  }
+}

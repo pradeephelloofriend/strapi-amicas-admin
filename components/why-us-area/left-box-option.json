@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_why_us_area_left_box_options",
+  "info": {
+    "name": "left-box-option",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "richtext"
+    }
+  }
+}

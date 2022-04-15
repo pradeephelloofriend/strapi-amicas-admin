@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_main_slider_area_sliders",
+  "info": {
+    "name": "slider",
+    "icon": "camera"
+  },
+  "options": {},
+  "attributes": {
+    "caption_h2": {
+      "type": "string"
+    },
+    "caption_p": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "btn_link": {
+      "model": "nav"
+    }
+  }
+}

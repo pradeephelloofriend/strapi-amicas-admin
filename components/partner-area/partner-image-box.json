@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_partner_area_partner_image_boxes",
+  "info": {
+    "name": "Partner-Image-Box",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

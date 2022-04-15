@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "services_areas",
+  "info": {
+    "name": "Services Area",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "text"
+    },
+    "desc2": {
+      "type": "richtext"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "service-area.service-item"
+      ]
+    }
+  }
+}

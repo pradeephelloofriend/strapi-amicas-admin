@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_why_us_area_right_box_options",
+  "info": {
+    "name": "right-box-option",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "text"
+    }
+  }
+}

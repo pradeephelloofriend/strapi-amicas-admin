@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "why_us_areas",
+  "info": {
+    "name": "Why Us Area"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Left_Box_Content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "why-us-area.left-box"
+    },
+    "Right_Box_Content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "why-us-area.right-box-content"
+    }
+  }
+}

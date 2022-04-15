@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_about_us_area_left_footer_contents",
+  "info": {
+    "name": "left_footer_content",
+    "icon": "list-alt"
+  },
+  "options": {},
+  "attributes": {
+    "Counter_Number": {
+      "type": "string"
+    },
+    "Counter_Text": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

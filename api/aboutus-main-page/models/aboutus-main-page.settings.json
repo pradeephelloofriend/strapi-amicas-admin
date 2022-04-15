@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "aboutus_main_pages",
+  "info": {
+    "name": "Aboutus main page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "richtext"
+    },
+    "desc2": {
+      "type": "richtext"
+    },
+    "goalsItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "aboutusmainpage.goals"
+    },
+    "ceoData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "aboutusmainpage.ceo"
+    },
+    "statisticsItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "aboutusmainpage.statistics"
+    },
+    "aboutFooter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "aboutusmainpage.about-footer"
+    }
+  }
+}

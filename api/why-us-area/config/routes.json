@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/why-us-area",
+      "handler": "why-us-area.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/why-us-area",
+      "handler": "why-us-area.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/why-us-area",
+      "handler": "why-us-area.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

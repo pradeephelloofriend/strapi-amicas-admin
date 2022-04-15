@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "top_bar_areas",
+  "info": {
+    "name": "Top Bar Area"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "leftContent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "top-bar-area.left-content-data"
+    },
+    "rightContent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "top-bar-area.right-content-data"
+    }
+  }
+}

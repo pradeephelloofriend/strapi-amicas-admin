@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_about_us_area_left_slide_contents",
+  "info": {
+    "name": "left_slide_content",
+    "icon": "chalkboard"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

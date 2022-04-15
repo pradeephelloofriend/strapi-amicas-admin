@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_aboutusmainpage_progress_bars",
+  "info": {
+    "name": "progressBar",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "progressTitle": {
+      "type": "string"
+    },
+    "progressPercent": {
+      "type": "integer"
+    }
+  }
+}

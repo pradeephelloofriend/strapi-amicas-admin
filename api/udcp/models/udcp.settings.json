@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "udcps",
+  "info": {
+    "name": "UDCP",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "SY": {
+      "type": "string"
+    },
+    "RT": {
+      "type": "string"
+    },
+    "DL01": {
+      "type": "string"
+    },
+    "USEQ": {
+      "type": "integer"
+    },
+    "STCODE": {
+      "model": "client",
+      "via": "udcps"
+    }
+  }
+}

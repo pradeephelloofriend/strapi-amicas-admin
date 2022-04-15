@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "navigation_areas",
+  "info": {
+    "name": "Navigation Area"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "navigation-area.left-box"
+    },
+    "navItem": {
+      "type": "component",
+      "repeatable": false,
+      "component": "navigation-area.middle-box"
+    }
+  }
+}

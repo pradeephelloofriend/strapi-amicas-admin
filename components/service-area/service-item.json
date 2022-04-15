@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_service_area_service_items",
+  "info": {
+    "name": "serviceItem",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "desc1": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "nav_item": {
+      "model": "nav-item"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_aboutusmainpage_about_footers",
+  "info": {
+    "name": "aboutFooter",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "mainTitle": {
+      "type": "string"
+    },
+    "expDesc": {
+      "type": "text"
+    },
+    "progressBarItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "aboutusmainpage.progress-bar"
+    },
+    "sliderItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "aboutusmainpage.about-footer-slider"
+    }
+  }
+}

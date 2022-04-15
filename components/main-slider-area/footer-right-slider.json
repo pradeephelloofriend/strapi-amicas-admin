@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_main_slider_area_footer_right_sliders",
+  "info": {
+    "name": "footer-right-slider",
+    "icon": "tablet-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

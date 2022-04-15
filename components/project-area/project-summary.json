@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_project_area_project_summaries",
+  "info": {
+    "name": "projectSummary",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "desc1": {
+      "type": "richtext"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

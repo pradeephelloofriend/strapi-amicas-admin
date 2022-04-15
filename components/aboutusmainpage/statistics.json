@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_aboutusmainpage_statistics",
+  "info": {
+    "name": "statistics",
+    "icon": "arrows-alt-v"
+  },
+  "options": {},
+  "attributes": {
+    "statsIcon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "statsDesc1": {
+      "type": "string"
+    },
+    "statsNum": {
+      "type": "integer"
+    }
+  }
+}

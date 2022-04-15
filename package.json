@@ -1,0 +1,41 @@
+{
+  "name": "amicas-server",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "cloudinary": "^1.27.1",
+    "graphql": "^16.1.0",
+    "knex": "0.21.18",
+    "mysql": "2.18.1",
+    "strapi": "3.6.8",
+    "strapi-admin": "3.6.8",
+    "strapi-connector-bookshelf": "3.6.8",
+    "strapi-plugin-content-manager": "3.6.8",
+    "strapi-plugin-content-type-builder": "3.6.8",
+    "strapi-plugin-email": "3.6.8",
+    "strapi-plugin-navigation": "^1.1.2",
+    "strapi-plugin-upload": "3.6.8",
+    "strapi-plugin-users-permissions": "3.6.8",
+    "strapi-provider-upload-aws-s3": "^3.6.8",
+    "strapi-provider-upload-cloudinary": "^3.6.8",
+    "strapi-utils": "3.6.8"
+  },
+  "author": {
+    "name": "Kamsoft Technolgies"
+  },
+  "strapi": {
+    "uuid": "cceabcb8-80e1-4894-bf7a-e6c9b6e04e71"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
+  },
+  "license": "MIT"
+}

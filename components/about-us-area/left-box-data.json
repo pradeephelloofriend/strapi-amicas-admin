@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_us_area_left_box_data",
+  "info": {
+    "name": "leftBoxData",
+    "icon": "arrow-left"
+  },
+  "options": {},
+  "attributes": {
+    "Experince": {
+      "type": "text"
+    },
+    "left_slider_image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us-area.left-slide-content"
+    }
+  }
+}

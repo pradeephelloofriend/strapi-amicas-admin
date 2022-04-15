@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navs",
+  "info": {
+    "name": "nav",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "code": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "isSubNav": {
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    },
+    "nav_items": {
+      "via": "nav_id",
+      "collection": "nav-item"
+    }
+  }
+}

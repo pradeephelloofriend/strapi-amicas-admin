@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_footer_area_menu_sub_links",
+  "info": {
+    "name": "menu-sub-link",
+    "icon": "border-all"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

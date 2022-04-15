@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "main_slider_areas",
+  "info": {
+    "name": "Main Slider Area"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "main-slider-area.slider"
+      ]
+    },
+    "Slider_footer_left": {
+      "type": "string"
+    },
+    "footerRightContent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "main-slider-area.footer-right-slider"
+    }
+  }
+}

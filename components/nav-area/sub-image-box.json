@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_nav_area_sub_image_boxes",
+  "info": {
+    "name": "sub-image-box",
+    "icon": "arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "desc1": {
+      "type": "string"
+    }
+  }
+}

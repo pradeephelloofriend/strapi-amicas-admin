@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_footer_area_social_item_boxes",
+  "info": {
+    "name": "social-item-box",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "iconName": {
+      "type": "string"
+    },
+    "iconLink": {
+      "type": "string"
+    }
+  }
+}

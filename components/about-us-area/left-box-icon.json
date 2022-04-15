@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_about_us_area_left_box_icons",
+  "info": {
+    "name": "rightBox-icon",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "desc1": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_project_area_navigations",
+  "info": {
+    "name": "navigation",
+    "icon": "list-ul"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "project_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product-area.project-item-box"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_top_bar_area_right_content_data",
+  "info": {
+    "name": "rightContentData",
+    "icon": "chevron-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nav_items",
+  "info": {
+    "name": "Nav Item",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "code": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "nav_id": {
+      "model": "nav",
+      "via": "nav_items"
+    },
+    "isSubItem": {
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    },
+    "navSubItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nav-area.content"
+    },
+    "bgImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "main_description": {
+      "type": "richtext"
+    }
+  }
+}

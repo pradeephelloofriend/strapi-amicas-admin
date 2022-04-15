@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/udcps",
+      "handler": "udcp.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/udcps/count",
+      "handler": "udcp.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/udcps/:id",
+      "handler": "udcp.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/udcps",
+      "handler": "udcp.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/udcps/:id",
+      "handler": "udcp.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/udcps/:id",
+      "handler": "udcp.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

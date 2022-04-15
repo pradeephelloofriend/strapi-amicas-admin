@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_product_area_products",
+  "info": {
+    "name": "products",
+    "icon": "chart-pie"
+  },
+  "options": {},
+  "attributes": {
+    "btnLink": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "desc1": {
+      "type": "text"
+    },
+    "nav_item": {
+      "model": "nav-item"
+    }
+  }
+}

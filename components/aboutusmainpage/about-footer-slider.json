@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_aboutusmainpage_about_footer_sliders",
+  "info": {
+    "name": "aboutFooterSlider",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

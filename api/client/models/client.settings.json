@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clients",
+  "info": {
+    "name": "CLIENT"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "CODE": {
+      "type": "string"
+    },
+    "NAME": {
+      "type": "string"
+    },
+    "ADDRESS": {
+      "type": "richtext"
+    },
+    "udcps": {
+      "via": "STCODE",
+      "collection": "udcp"
+    }
+  }
+}

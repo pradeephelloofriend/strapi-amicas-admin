@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "testimonial_areas",
+  "info": {
+    "name": "Testimonial Area"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "text"
+    },
+    "desc2": {
+      "type": "richtext"
+    },
+    "testimonial_box": {
+      "type": "component",
+      "repeatable": true,
+      "component": "testimonial-area.testimonial-box-content"
+    }
+  }
+}

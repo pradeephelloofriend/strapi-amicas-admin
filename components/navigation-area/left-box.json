@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_navigation_area_left_boxes",
+  "info": {
+    "name": "left-box",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "imgae": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

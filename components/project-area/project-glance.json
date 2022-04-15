@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_project_area_project_glances",
+  "info": {
+    "name": "projectGlance",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "text"
+    }
+  }
+}

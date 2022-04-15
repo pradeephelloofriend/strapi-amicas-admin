@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "footer_areas",
+  "info": {
+    "name": "Footer Area"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "footer_top": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer-area.footer-top-box"
+    },
+    "footer_middle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer-area.footer-middle-box"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "footer-area.menu-item-area"
+      ]
+    },
+    "footer_bootom_box": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer-area.footer-bottom-box"
+    }
+  }
+}

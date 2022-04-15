@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_testimonial_area_testimonial_box_contents",
+  "info": {
+    "name": "testimonial-box-content",
+    "icon": "ankh"
+  },
+  "options": {},
+  "attributes": {
+    "avtar": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_why_us_area_right_box_contents",
+  "info": {
+    "name": "right-box-content",
+    "icon": "arrow-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "text"
+    },
+    "desc2": {
+      "type": "richtext"
+    },
+    "option_box_right": {
+      "type": "component",
+      "repeatable": true,
+      "component": "why-us-area.right-box-option"
+    }
+  }
+}

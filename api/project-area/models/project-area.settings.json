@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "project_areas",
+  "info": {
+    "name": "Project Area",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "text"
+    },
+    "desc2": {
+      "type": "richtext"
+    }
+  }
+}

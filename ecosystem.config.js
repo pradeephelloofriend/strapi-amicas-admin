@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: 'amicas-server',
-      cwd: '/home/ec2-user/strapi/amicas-admin',
+      cwd: '/home/ec2-user/strapi/strapi-amicas-admin',
       script: 'npm',
       args: 'start',
       env: {

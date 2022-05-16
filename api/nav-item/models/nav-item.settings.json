@@ -51,6 +51,11 @@
     },
     "main_description": {
       "type": "richtext"
+    },
+    "maintainContent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nav-area.maintain-block"
     }
   }
 }

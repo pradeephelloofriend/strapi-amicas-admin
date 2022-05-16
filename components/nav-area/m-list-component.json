@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_nav_area_m_list_components",
+  "info": {
+    "name": "mListComponent",
+    "icon": "braille"
+  },
+  "options": {},
+  "attributes": {
+    "desc": {
+      "type": "text"
+    },
+    "img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

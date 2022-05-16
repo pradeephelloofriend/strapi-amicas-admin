@@ -23,6 +23,31 @@
       "type": "component",
       "repeatable": true,
       "component": "nav-area.sub-image-box"
+    },
+    "desc2": {
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "featureItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nav-area.feature-component"
+    },
+    "summariItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nav-area.summary-component"
     }
   }
 }

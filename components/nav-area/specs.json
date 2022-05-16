@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_nav_area_specs",
+  "info": {
+    "name": "specs",
+    "icon": "angle-up"
+  },
+  "options": {},
+  "attributes": {
+    "head": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}

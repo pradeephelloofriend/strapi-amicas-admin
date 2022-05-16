@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_nav_area_maintain_blocks",
+  "info": {
+    "name": "maintainBlock",
+    "icon": "basketball-ball",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "maintainField": {
+      "type": "richtext"
+    },
+    "mListData": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nav-area.m-list-component"
+    },
+    "maintainField2": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_nav_area_summary_components",
+  "info": {
+    "name": "summaryComponent",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "desc": {
+      "type": "text"
+    }
+  }
+}
